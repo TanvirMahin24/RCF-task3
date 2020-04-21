@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(88, 87, 87, 0.788);
+    transition :all .2s ease-in;
+}
+
+.topPart{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 3;
+    background: rgba(1, 121, 225,.7);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index:-2;
+    overflow: hidden;
+}
+.overlayImg{
+    width: 100%;
+}
+.overlayColor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    background: rgba(1, 121, 225,.8);
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appTitle{
+    font-size: 3rem;
+}
+.titleSection{
+    flex: 3.5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navSection{
+    margin-top: 10px;
+    flex:7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customNavLink{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    margin: 0 15px;
+}
+.customNavLink:hover{ 
+    text-decoration: none;
+    color: rgba(88, 87, 87, 0.788);
+    transition :all .2s ease-in;
+}
+.customNavLink:nth-child(1){
+    border-bottom: 4px solid #fff;
+}
+.headerMiddle{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moto{
+    flex:3;
+    width: 100%;
+    padding-left: 50px;
+}
+.joinCustomButton{
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 60%;
+    background: white;
+    color: rgba(1, 121, 225,1);
+    padding: 15px 50px;
+    font-size: 1.9rem;
+    border-radius: 60px;
+}
+.motoDiscription{
+    margin-top: 30px;
+    line-height: 3.5rem;
+    font-size: 2.9rem;
+}
+.RCFcard{
+    flex: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorOne{
+    color: rgba(1, 121, 225,.7);
+}
+.customCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    color: rgba(1, 121, 225,.7);
+    border: 4px solid #fff;
+    border-radius: 20px;
+    box-shadow: -10px 10px 0 2px  rgb(189, 213, 238);
+    overflow: hidden;
+}
+.cardTop{
+    flex:3;
+}
+.cardBottom{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 121, 225);
+}
+.middlePart{
+    padding-top: 40px;
+}
+.middlePart .row{
+    padding: 0 60px;
+}
+.devCard{
+    padding:20px 20px;
+    border: 2px solid  rgb(1, 121, 225);
+    border-radius: 15px;
+    outline: 20px solid transparent;
+    overflow: hidden;
+}
+.devCardMid{
+    padding:20px 20px;
+    background: rgb(1, 121, 225);
+    border: 2px solid  rgb(1, 121, 225);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px 0 rgba(1, 121, 225,.6);
+}
+
+.gallary{
+    padding-bottom: 50px;
+}
+.galItem{
+    color: white;
+    font-size: 1.4rem;
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+.item1{
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: url(../Images/download.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item2{
+    display: flex;
+    padding-left: 20px;
+    align-items: flex-end;
+    background: url(../Images/pngtree-gradient-stereo-big-data-technology-poster-background-image_149310.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item3{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    background: url(../Images/pngtree-gradient-stereo-big-data-technology-poster-background-image_149310.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item4{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    background: url(../Images/549651a8f9ede2ad9858df94e3b1f277.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.footerWrapper{
+    padding:0 60px;
+    display: flex;
+    flex-direction: row;
+}
+.buttonSection{
+    margin-top: 30px;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.footerButton{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 70%;
+    background: white;
+    color: rgba(1, 121, 225,1);
+    padding: 12px 50px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 60px;
+}
+.footerButton:nth-child(2){
+    margin-top: 20px;
+}
+.linkSection{
+    padding-top: 40px;
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: left;
+}
+.overlayFooter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index:-2;
+    overflow: hidden;
+}
+.overlayImgFooter{
+    width: 100%;
+}
+.overlayColorFooter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    background: rgba(1, 121, 225,.8);
+}
+
+.footerFinish{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+
+}
+.linkSection h4{
+    font-size: 1.8rem;
+}
+.linkSection h6{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .buttonSection{
+        flex: 1;
+    }
+    .overlayImgFooter{
+        width: auto;
+        height: 100%;
+    }
+    .overlayImg{
+        width: auto;
+        height: 100%;
+    }
+    .footerButton{
+        width: 80%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .headerMiddle{
+        flex-direction: column;
+    }
+    .moto{
+        order: 2;
+        padding-bottom: 50px;
+    }
+    .RCFcard{
+        order: 1;
+    }
+    .customNavLink{
+        margin: 20px 0;   
+    }
+    .joinCustomButton{
+        width: 80%;
+    }
+    .navSection{
+        position: absolute;
+        top: 0;
+        left: -2000px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: rgba(1, 121, 225,.9);
+        transition: all .4s ease-in-out;
+    }
+    .hamburger{
+        position: absolute;
+        z-index: 999;
+        display: block;
+        width: 100%;
+        padding-left: 85%;
+    }
+    .line{
+        display: block;
+        height: 3px;
+        width: 30px;
+        margin-top: 7px;
+        background: #fff;
+    }
+    .footerFinish{
+        padding: 20px 20px;
+    }
+    
+}
