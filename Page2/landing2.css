@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerWrapper{
+    background:#4B5DED;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+}
+.navSection{
+    padding:60px 110px;
+    display:flex;
+    align-items: center;
+}
+.titleSection{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.navLinkSection{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 40px;
+}
+.customNavLink{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    padding: 10px;
+    color: white;
+}
+.customNavLink:hover{
+    color: #4B5DED;
+    background: white;
+    text-decoration: none;
+}
+.appTitle{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: white;
+}
+.headerContents{
+    display: flex;
+}
+.leftHeader{
+    width: 55%;
+    height: 100%;
+    padding: 0 0 0 130px;
+}
+.secondLeft span{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.7rem;
+}
+.firstLeft{
+    width:80%;
+}
+.secondLeft{
+    width: 85%;
+}
+.firstLeft span{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+.uLine{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 45%;
+    height: 8px;
+    background: white;
+}
+.leftButton{
+    margin-top: 25px;
+    width: 30%;
+    padding: 3px;
+    background: white;
+    border-radius: 40px;
+}
+.roundCorner{
+    border-radius: 25px;
+}
+.leftButton span{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4B5DED;
+    font-weight: bold;
+}
+.rightHeader{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+
+}
+
+.rightOne{
+    height: 260px;
+    width: 210px;
+    padding: 20px;
+    background: white;
+}
+.cardTextHead{
+    display: block;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.cardTextHeadFoot{
+    display: block;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    transform: translate(0,-150%);
+}
+.headCardImg{
+    width: 110px;
+    transform: translate(0,-10%);
+}
+.roundCard{
+    padding-top: 5px;
+    border-radius: 40px;
+    background: #4B5DED;
+    height: 45px;
+    transform: translate(0,-60%);
+}
+.cardHeadImg{
+    width: 20%;
+    margin-left: 10px;
+}
+.rightTwo{
+    float: right;
+    margin-left: 30px;
+}
+
+.aaaa{
+    font-size: 1.2rem;
+    color: #4B5DED;
+    padding: 6px 3px;
+}
+.rightTwo{
+    width: 180px;
+}
+.rightTwo .roundCorner{
+    border-radius: 18px;
+}
+.headRightCard2{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    background: white;
+}
+.headRightCard2Img{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.headRightCard2Img:nth-child(2){
+    margin-left: 10px;
+}
+.headRightCard2Text{
+    display: block;
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+    padding: 12px;
+    transform: translate(0,-220%);
+}
+.headRightCard2TextTag{
+    display: block;
+    color: #aaa;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding:0 12px;
+    transform: translate(0,-1000%);
+}
+.posCardFix{
+    transform: translate(7%, -560%);
+    width: 85%;
+    height: 95%;
+}
+.cardHeadImg2{
+    width: 16%;
+    margin-left: 8px;
+    transform: translate(0,-10%);
+}
+.finishCardddd{
+    display: block;
+    width: 100%;
+    height: 50px;
+    transform: translate(21%,-330%);
+    font-weight: bolder;
+    font-size: .7rem;
+}
+.middleSection{
+    width: 100%;
+    height: 120vh;
+    background: white;
+    overflow: hidden;
+    display: block;
+}
+.midLeft{
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 90px;
+    display: block;
+}
+.midRight{
+    float: right;
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 65px;
+}
+.profileCard{
+    box-sizing: border-box;
+    display: inline-block;
+    width:220px;
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: white;
+    border: 1px solid #C1BEBE;
+    box-shadow: 5px 5px 5px  #A4A4A4;
+}
+.profileCard .rounded-circle{
+    width: 35%;
+}
+.profileCard h6{
+    font-size: 1.1rem;
+    line-height: .9rem;
+}
+.profileCard button{
+    border-radius: 40px;
+    border: 2px solid #4B5DED;
+    font-size: .6rem;
+    color: #4B5DED;
+    font-weight: bold;
+    padding: 2px 36px;
+    margin-top: 10px;
+}
+.buttonPair{
+    margin-top: 55px;
+    margin-left: 80px;
+    display: flex;
+}
+.btn1{
+    width: 175px;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    background: #4B5DED;
+    color: #fff;
+    font-weight: bold;
+}
+.btn2{
+    width: 175px;
+    height: 35px;
+    margin-left: 40px;
+    border: 2px solid #4B5DED;
+    border-radius: 40px;
+    background: #fff;
+    color: #4B5DED;
+    font-weight: bold;
+}
+.midRight h6{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.midRight h1{
+    font-size: 3rem;
+    padding-right: 130px;
+}
+.midRight .rounded-circle{
+    margin-top: 20px;
+    width: 15%;
+}
+.textFix{
+    line-height: 1.1rem;
+}
+.cardCustom{
+    width: 520px;
+    
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cardCustomHeader{
+    background: #4B5DED;
+    height: 50px;
+    width: 100%;
+}
+.aboutRafiq{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.4rem;
+    color: white;
+}
+.picDetails{
+    display: flex;
+}
+.details{
+    width: 80%;
+    padding: 20px;
+}
+.pic{
+    padding-top: 45px;
+    width: 20%;
+}
+.picRafiq{
+    width: 60%;
+    border: 1px solid #A4A4A4;
+    border-radius: 15px;
+}
+.cardPart3{
+    color: black;
+    font-weight: bold;
+    padding: 2px 20px;
+    border: 1px solid #4B5DED;
+}
+.fixBorder{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    background: #32364D;
+    padding:70px 260px;
+}
+.footerItem{
+    width: 20%;
+    height: fit-content;
+    margin-right: 70px;
+    border-left: 1px solid rgb(226, 228, 228);
+}
+.lineFix{
+    line-height: 1.5rem;
+    color: rgb(226, 228, 228);
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+.footerItem:last-child{
+    margin-right: 0;
+}
+.hamburger{
+    display: none;
+}
+@media (max-width: 768px){
+    .headerWrapper{
+        display: inline-block;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .navSection{
+        padding: 40px;
+    }
+    .headerContents{
+        flex-direction: column;
+    }
+    .leftHeader .firstLeft .text-white,.leftHeader .firstLeft .text-white{
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    .rightHeader{
+        width: 100%;
+        flex-direction: row;
+    }
+    .leftHeader{
+        padding: 0;
+        padding: 0 15%;
+        width: 100%;
+    }
+    .leftButton{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .rightOne{
+        display: inline-block;
+        margin: 0 0;
+        margin-left: 8%;
+        border-bottom: 2px solid #fff;
+    }
+    .rightTwo{
+        display: inline-block;
+        margin: 0 0;
+        margin-left: 20px;     
+    }
+    .middleSection{
+        height: fit-content;
+    }
+    .midLeft, .midRight{
+        width: 100%;
+        padding-top: 0;
+    }
+    .buttonPair{
+        margin-left: 12%;
+        margin-top: 20px;
+    }
+    .btn2{
+        margin-left: 5px;
+    }
+    .midRight{
+        padding-top: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .midRight h1{
+        padding-right: 0;
+    }
+    .profileCard{
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+    }
+    .midLeft{
+        padding: 0 0 0 0;
+    }
+    .cardCustom{
+        width: 100%;
+        padding: 10px;
+    }
+    .footer{
+        display: block;
+        padding: 40px;
+        height: fit-content;
+    }
+    .footerItem{
+        display: inline-block;
+        margin-right: 0;
+        width: 45%;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .midRight .d-flex{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: 90%;
+        z-index: 9999;
+    }
+    .line{
+        width: 30px;
+        height: 4px;
+        background: #fff;
+        z-index: 666;
+        margin-top: 7px;
+    }
+    .navLinkSection{
+        position: fixed;
+        top: 0;
+        left: -2000px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        z-index: 555;
+        flex-direction: column;
+        background: #4B5DED;
+        transition: all .4s ease-in-out;
+        overflow-y: hidden;
+    }
+    .noScroll{
+        position: fixed;
+        overflow: hidden;
+    }
+}
