@@ -459,15 +459,18 @@
     .hamburger{
         display: block;
         position: absolute;
-        top:40px;
-        right: 40px;
+        top:0;
+        right:0;
+        margin-right: 40px;
+        margin-top: 40px;
         z-index: 9999;
     }
     .line{
+        display: block;
         width: 30px;
         height: 4px;
         background: #fff;
-        z-index: 666;
+        z-index: 888;
         margin-top: 7px;
         transition: .2s all ease-in-out;
     }
@@ -489,17 +492,17 @@
         overflow: hidden;
     }
     .r45{
-        transform: translate(50%,125%) rotate(45deg);
+        transform: translate(-100%,125%) rotate(45deg);
 
         transition: all .5s ease-in-out;
     }
     .r45rev{
-        transform: translate(50%,-140%) rotate(-45deg);
-        transition: all .5s ease-in-out;
+        transform: translate(-100%,-140%) rotate(-45deg);
+        transition:all .5s ease-in-out;
     }
     .hide{
         display: none;
-        transition:all .2 ease-in-out;
+        transition:all .5 ease-in-out;
     }
 
 }
