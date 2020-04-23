@@ -459,8 +459,8 @@
     .hamburger{
         display: block;
         position: absolute;
-        top: 5%;
-        left: 90%;
+        top:40px;
+        right: 40px;
         z-index: 9999;
     }
     .line{
@@ -469,9 +469,10 @@
         background: #fff;
         z-index: 666;
         margin-top: 7px;
+        transition: .2s all ease-in-out;
     }
     .navLinkSection{
-        position: fixed;
+        position: absolute;
         top: 0;
         left: -2000px;
         width: 100%;
@@ -480,11 +481,25 @@
         z-index: 555;
         flex-direction: column;
         background: #4B5DED;
-        transition: all .4s ease-in-out;
+        transition: all .5s ease-in-out;
         overflow-y: hidden;
     }
     .noScroll{
         position: fixed;
         overflow: hidden;
     }
+    .r45{
+        transform: translate(50%,125%) rotate(45deg);
+
+        transition: all .5s ease-in-out;
+    }
+    .r45rev{
+        transform: translate(50%,-140%) rotate(-45deg);
+        transition: all .5s ease-in-out;
+    }
+    .hide{
+        display: none;
+        transition:all .2 ease-in-out;
+    }
+
 }
