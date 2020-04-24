@@ -1,0 +1,334 @@
+:root{
+    --color1: #731ECA;
+    --white: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+    background: rgba(116, 30, 202, 0.8);
+}
+.headLeft{
+    padding-left: 120px;
+    padding-top: 75px;
+    display: block;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.headRight{
+    float: right;
+    display: block;
+    width: 40%;
+    height: 100%;
+    overflow: visible;
+}
+.appName span{
+    padding-left: 15px;
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
+.appName span:nth-child(1){
+    padding-left: 0;
+    display: block;
+    color: white;
+    font-size: 3.1rem;
+    font-weight: bolder;
+    letter-spacing: normal;
+}
+.appName span:nth-child(2){
+    padding-left: 0;
+    padding-top: 5vh;
+    display: block;
+    color: white;
+    letter-spacing: normal;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.headRightOne{
+    display: visible;
+    float: right;
+}
+.headRightOne button{
+    margin-top: 100px;
+    margin-right: 10vw;
+    background: transparent;
+    border: 3px solid #fff;
+    font-size: 1.4rem;
+    border-radius: 40px;
+    padding:3px 77px;
+    color: #fff;
+    font-weight: normal;
+}
+.headRightOne button:hover{
+    color: #731ECA;
+    background: #fff;
+}
+.headRightTwo{
+    overflow: visible;
+    height: 150%;
+    width: 100%;
+}
+.headRightTwo h3{
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 20%;
+    right: -25%;
+    z-index: 3;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.posFix{
+    position: relative;
+    z-index: 2;
+}
+.overlayImg{
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.branding{
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 59%;
+    height: 12vh;
+    margin: 0 auto;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px rgba(116, 30, 202, 0.4);
+    transform: translate(0, -50%);
+}
+.branding img{
+    height: 53px;
+    padding: 0 8px;
+}
+.branding img:first-child{
+    height: 40px;
+}
+.textSection{
+    display: block;
+    overflow: hidden;
+}
+.textSectionFirst{
+    width: 100%;
+    margin: 0 auto;
+}
+.textSectionFirst span{
+    display: block;
+    width: 100%;
+    font-size: 2.2rem;
+    letter-spacing: .4rem;
+    color: #731ECA;
+    font-weight: bold;
+}
+.textSectionSecond h1{
+    font-size: 4.6rem;
+    color: black;
+    font-weight: 700;
+    padding-bottom:70px;
+}
+.cardSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardCustom{
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+    width: 20%;
+    height: 55vh;
+    box-shadow: 5px 5px 5px rgba(116, 30, 202, 0.4);
+    background: #fff;
+    border: 2px solid #731ECA;
+    border-radius: 25px;
+    margin: 0 2%;
+}
+.cardTop{
+    background-color: #fff;
+    padding: 8% 10%;
+}
+.cardTop span{
+    font-size: 1.5rem;
+    color: #731ECA;
+}
+.bg-custom{
+    background: #731ECA;
+}
+.text-custom{
+    color: #731ECA !important;
+}
+.cardMidTop{
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    background: #731ECA;
+    height: 22%;
+    padding-left: 8%;
+    padding-top: 1%;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.cardMidTop h2{
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+.cardMidTop h5{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-left: 5%;
+    transform: translate(0, -30%);
+}
+.cardLow{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+.cardLow h1{
+    margin-top: 13%;
+    text-align: center;
+    padding: 0 10%;
+    width: 100%;
+    font-size: 2.35rem;
+    color: #731ECA;
+}
+.cardLow button{
+    background: #731ECA;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border-radius: 40px;
+    margin-top: 10%;
+    padding: 0 60px;
+}
+.cardLow button:hover{
+    background: rgba(86, 13, 160, 0.76);
+    color: #fff;
+    transition:all .2s ease-in-out;
+}
+.bg-custom-white{
+    background: #fff !important;
+}
+.bg-custom-white:hover{
+    box-shadow: 2px 2px 2px rgb(197, 152, 241);
+    transition: .2s ease-in-out;
+}
+.footerWrapper{
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
+.footer{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    overflow: hidden;
+}
+.leftFooter{
+    overflow: hidden;
+    flex: 1;
+    background:rgba(116, 30, 202, 0.644);
+    display: block;
+}
+.rightFooter{
+    flex: 1;
+    overflow: hidden;
+    background: rgb(116, 30, 202);
+}
+.footerOverlay{
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.footerOverlayImg{
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+}
+.stayConnected{
+    margin-top: 20vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 5rem;
+    color: #fff;
+    line-height: 5.1rem;
+    border-left: 8px solid #fff;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.inputSection{
+    display: block;
+    margin-left: 8vw;
+    margin-top: 15vh;
+}
+.inputItem{
+    padding-left: 15px;
+    display: block;
+    width: 58%;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    outline-color: white;
+    margin-top: 5%;
+}
+.inputItem:focus{
+    border-bottom: 2px solid rgb(5, 39, 39);
+}
+.inputItem::placeholder{
+    color: white;
+    font-weight: 300;
+}
+.inputSub{
+    margin-top: 8%;
+    width: 58%;
+    background: white;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #731ECA;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+.inputSub:hover{
+    background: rgb(195, 155, 235);
+}
+@media (max-width: 1368px) and (min-width: 1000px){
+    *{
+        font-size: 14px;
+    }
+}
+@media (max-width: 999px) and (min-width: 768px){
+    *{
+        font-size: 13px;
+    }
+}

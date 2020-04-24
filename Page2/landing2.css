@@ -257,6 +257,10 @@
     padding: 2px 36px;
     margin-top: 10px;
 }
+.profileCard button:hover{
+    color: white;
+    background-color: #4B5DED;
+}
 .buttonPair{
     margin-top: 55px;
     margin-left: 80px;
