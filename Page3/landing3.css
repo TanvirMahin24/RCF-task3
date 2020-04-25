@@ -291,7 +291,7 @@
     color: white;
     font-size: 2rem;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     outline: none;
     outline-color: white;
     margin-top: 5%;
@@ -309,6 +309,7 @@
     background: white;
     font-size: 1.9rem;
     font-weight: 400;
+    border: none;
     color: #731ECA;
     text-align: center;
     border-radius: 10px;
@@ -333,14 +334,14 @@
         font-size: 12px;
     }
     .header{
-        height: 75vh;
+        height: 90vh;
     }
     .overlayImg{
         min-height: 100%;
         min-width: 100%;
     }
     .overlayImg img{
-        height: 75vh;
+        height: 90vh;
         width: auto !important;
     }
     .headLeft{
@@ -439,7 +440,8 @@
         width: 100%;
     }
     .inputSub{
-        width: 70%;
+        margin-top: 15%;
+        width: 100%;
     }
     
 }
