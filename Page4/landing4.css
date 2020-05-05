@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 235vh;
+}
+.mainLeft{
+    float: left;
+    width: 32%;
+    height: 100%;
+    background: linear-gradient(#002398, #926EE6);
+}
+.mainRight{
+    float: right;
+    width: 68%;
+    height: 100%;
+}
+.navSection{
+    display: block;
+    width: 20%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+.navSection li a{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 82% 0;
+    background: rgba(0, 0, 0, 0.253);
+}
+.navSection li a:hover{
+    background: none;
+}
+.navSection li a img{
+    width: 43%;
+}
+.nav-ext{
+    display: block;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.253);
+}
+.leftContent{
+    width: 80%;
+    float: right;
+    overflow: hidden;
+    height: 100%;
+    color: white;
+}
+.helloRafiqVai{
+    padding-left: 15%;
+    padding-top: 23%;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.rafiqVaiMain{
+    font-size: 2.4rem;
+}
+.leftImg{
+    padding-top: 9%;
+    width: 100%;
+}
+.leftImg img{
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 40%;
+}
+.circlesSection{
+    display: flex;
+    justify-content: center;
+}
+.circleItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    margin: 2% 3.5%;
+    background: rgba(255, 255, 255, 0.336);
+}
+.circleItems h4{
+    padding-top: 10%;
+}
+.circlesSection .fixText{
+    color: #002398;
+}
+.taskCards{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+.chkBox{
+    width: 15%;
+    padding-top: 3%;
+    float: left;
+}
+.chkBox input{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+
+.taskCardsText{
+    width: 85%;
+    height: 100%;
+    float: right;
+}
+.taskCardsText h3{
+    font-size: 1.5rem;
+}
+.taskCardsText:first-child h3{
+    padding-bottom: 2%;
+} 
+
+.hPrio{
+    border-radius: 4px;
+    font-weight: 600;
+    background: #FFE0ED;
+    color: #FF7AAD;
+    padding: 2px 10px;
+}
+.sCards{
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 3vw;
+    width: 100%;
+
+}
+.sCardItem{
+    width: 13%;
+    height: 20%;
+    margin-right: 1%;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: #FFCBE0;
+    color: #FF7AAD;
+}
+.rafiqVaiisBack{
+    padding: 3vw;
+}
+.rafiqVaiisBack h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.rafiqVaiisBack h2{
+    padding-top: 1vh;
+    font-size: 1.7rem;
+    color: #7F7F7F;
+}
+.postsSection{
+    border-radius:30px;
+    box-shadow: 10px 10px 10px 0 #EDEDED;
+    background: #F8F7FC;
+    margin-top: 2%;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+.post{
+    display: flex;
+    width: 100%;
+    padding-bottom: 6%;
+}
+.namePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.namePost h4{
+    font-weight: 700;
+}
+.datePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.datePost h5{
+    color: #7F7F80;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.activePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.activePost span{
+    color: #92D052;
+    background: #E2F0D9;
+    padding: 1px 35px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.imgsPost{
+    width: 23%;
+}
+.imgsPost img{
+    width: 31%;
+    border-radius: 50%;
+    border: 2px solid #92D052;
+    transform: translate(-35%,0);
+}
+.imgsPost img:first-child{
+    transform: none;
+}
+.imgsPost img:last-child{
+    transform: translate(-70%,0);
+}
+.othersPost{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 12%;
+    transform: translate(-22%,0);
+}
+.othersPost h4{
+    color: #7F7F80;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.posterRafiq{
+    border-radius:30px;
+    padding:3% 4%;
+    box-shadow: 10px 10px 10px 0 #EDEDED;
+    background: #F8F7FC;
+    width: 90%;
+    margin: 5%;
+    height: 88vh;
+}
+.posterRafiq h1{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    font-size: 3rem;
+    color: black;
+    font-weight: 900;
+}
+.posterRafiq p{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #7F7F80;
+    padding: 0 4%;
+    text-align: justify;
+    line-height: 1.9rem;
+}
+.posterRafiq .pic{
+    display: flex;
+    overflow: hidden;
+    justify-content: start;
+    margin-left: 4%;
+    margin-top: 5%;
+    height: 28vh;
+    width: 100%;
+}
+.posterRafiq img{
+    border-radius: 10px;
+    width: 43%;
+}
+.posterRafiq img:first-child{
+    margin-right: 5%;
+}
+.footer{
+    width: 100%;
+    display: block;
+    height: 40vh;
+    background: #172D38;
+    color: white;
+    padding: 3.5%;
+}
+.footerLeft{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.footerRight p{
+    text-align: right;
+    height: 100%;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    font-size: 1.2rem;
+    padding-top: 2%;
+    padding-left: 39%;
+    padding-right: 5%;
+}
+.footerLeft p{
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 39%;
+    height: 100%;
+    border-left: 8px solid white;
+    font-size: 1.2rem;
+}
+.footerRight{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.hamburger{
+    display: none;
+}
+@media (max-width: 1368px) and (min-width: 1000px){
+    *{
+        font-size: 14px;
+    }
+}
+@media (max-width: 999px) and (min-width: 768px){
+    *{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 12px;
+    }
+    .main{
+        overflow-y: hidden;
+        height: fit-content;
+    }
+    .mainLeft{
+        width: 100%;
+    }
+    .mainRight{
+        width: 100%;
+    }
+    .leftContent{
+        position: absolute;
+        top: 0;
+        left:-2000px;
+        z-index: 5;
+        width: 100%;
+        height: fit-content;
+        background: #172D38;
+        transition:all .5s ease-in-out;
+    }
+    .helloRafiqVai{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 5%;
+    }
+    .tasksLeft{
+        padding: 7%;
+    }
+    .hamburger{
+        display: block;
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 5%;
+        color: white;
+    }
+    .hamburger span a{
+        color: white;
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .navSection{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .nav-ext{
+        display: none;
+    }
+    .navSection li a{
+        width: 100%;
+        background: none;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.4rem;
+        padding: 0 0;
+    }
+    .navSection li a:hover{
+        transform: scale(1.2);
+    }
+    .navSection li a img{
+        width: 30%;
+    }
+    .sCards{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .sCardItem{
+        width: 25%;
+    }
+    .rafiqVaiisBack h1{
+        font-size: 2.5rem;
+    }
+    .activePost{
+        width: 15%;
+    }
+    .activePost span{
+        padding: 1px 10px;
+    }
+    .namePost{
+        width: 25%;
+    }
+    .imgsPost{
+        width: 33%;
+        transform: translate(10%, 0);
+    }
+    .footerLeft{
+        width: 100%;
+        height: 50%;
+
+    }
+    .footerRight{
+        width: 100%;
+        height: 50%;
+    }
+    .footerRight p{
+        border-left: none;
+    }
+    .footer{
+        height: 60vh;
+    }
+
+}

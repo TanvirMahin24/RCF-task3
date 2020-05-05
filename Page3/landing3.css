@@ -334,14 +334,14 @@
         font-size: 12px;
     }
     .header{
-        height: 90vh;
+        height: 100vh;
     }
     .overlayImg{
         min-height: 100%;
         min-width: 100%;
     }
     .overlayImg img{
-        height: 90vh;
+        height: 100vh;
         width: auto !important;
     }
     .headLeft{
@@ -377,15 +377,17 @@
         width: 96%;
     }
     .branding img{
-        height: 30px;
+        height: 25%;
     }
     .branding img:first-child{
-        height: 18px;
+        height: 17%;
     }
     .textSectionFirst{
+        padding: 0 10px;
         font-size: 2.2rem;
     }
     .textSectionSecond{
+        padding: 0 10px;
         font-size: 2.6rem;
     }
     .cardCustom{
@@ -437,11 +439,11 @@
         width: 100%;
     }
     .inputItem{
-        width: 100%;
+        width: 90%;
     }
     .inputSub{
         margin-top: 15%;
-        width: 100%;
+        width: 90%;
     }
     
 }
