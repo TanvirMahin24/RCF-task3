@@ -98,7 +98,23 @@
 .videoYoutube{
     font-size: 2.4rem;
 }
-.img-youtube{
-
-
+.name{
+	font-size:2rem;
+}
+body{
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,255,1) 100%);
+}
+.bg-primary{
+	background: rgb(2,0,36) !important;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,123,255,1) 100%) !important;
+}
+.bg-custom{
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,255,1) 100%);
+}
+.lead2{
+	font-size:1.6rem;
+	color:#010832;
+	font-weight:400;
 }
