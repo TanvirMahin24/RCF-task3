@@ -1,0 +1,553 @@
+@import url(//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift",Arial, Helvetica, sans-serif;
+}
+.topNav{
+    background: #192E3F;
+    width: 100%;
+    padding-left: 10%;
+}
+.topNav span{
+    display: inline-block;
+    padding: 14px 0;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-right: 4%;
+}
+.colorYellow{
+    color: #F5A40A;
+}
+.info{
+    display: block;
+    width: 100%;
+}
+.firstInfo{
+    display: block;
+    width: 45%;
+    float: left;
+    font-size: 2rem;
+}
+.firstInfo h1{
+    padding-left: 25%;
+    color: #192E3F;
+    font-size: 6.4rem;
+    font-weight: 500;
+}
+.secondInfo{
+    padding: 20px 0;
+    display: block;
+    float: right;
+    width: 28%;
+    
+}
+.secondInfo h2, .thirdInfo h2{
+    font-size: 2rem;
+}
+.secondInfo h1, .thirdInfo h1{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.thirdInfo{
+    padding: 20px 0;
+    display: block;
+    width: 27%;
+    float: right;
+}
+.nav{
+    background: #192E3F;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 12vh;
+    padding-right: 10%;
+}
+.nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.nav a:hover{
+    background: white;
+    color: #192E3F;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+}
+#parallax-img{
+    width: 100%;
+    transform: translate(0,100%);
+    transform: translate(20%,0);
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.headerContent{
+    position: relative;
+    z-index: 5;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.firstHeader{
+    float: left;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    height: 55vh;
+    padding-left: 8%;
+}
+.midHeader h1{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 300;
+}
+.midHeader h1 b{
+    border-bottom: 5px solid #192E3F;
+}
+.midHeader h2{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 300;
+}
+.midHeader h3{
+    padding: 0 8%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.midHeader{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.lastHeader{
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    height: 55vh;
+    padding-right: 8%;
+}
+.lastHeader h2{
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-size: 2.4rem;
+    color: #F5A40A;
+    font-weight: lighter;
+}
+.firstHeader h2{
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 2.4rem;
+    color: #F5A40A;
+    font-weight: lighter;
+}
+.headerOverlay{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 55vh;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.644);
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+}
+.cards{
+    display: block;
+    height: 65vh;
+    width: 100%;
+    padding: 5% 10%;
+}
+.cardWrapperLeft{
+    float: left;
+    width: 49%;
+    height: 140px;
+    clip-path: polygon(0% 0%, 83% 0, 100% 50%, 83% 100%, 0% 100%);
+    background: #F5A40A;
+}
+.cardWrapperRight{
+    float: right;
+    width: 49%;
+    height: 140px;
+    clip-path: polygon(17% 0, 100% 1%, 100% 100%, 17% 100%, 0% 50%);
+    background: #F5A40A;
+}
+.card{
+    height: 92%;
+    width: 92%;
+    background: white;
+    padding: 3%;
+}
+.card h1{
+    font-size: 2.4rem;
+}
+.card h2{
+    font-size: 1.4rem;
+    padding-right: 20%;
+    font-weight: lighter;
+}
+.cardRight h2{
+    padding-right: 0;
+    padding-left: 20%;
+}
+.cardLeft{
+    transform: translate(6%,4.5%);
+    clip-path: polygon(0% 0%, 83% 0, 100% 50%, 83% 100%, 0% 100%);
+}
+.cardRight{
+    transform: translate(2.5%,4%);
+    clip-path: polygon(17% 0, 100% 1%, 100% 100%, 17% 100%, 0% 50%);
+}
+.textRight{
+    text-align: right;
+}
+.t5{
+    margin-top: 5%;
+}
+.footerContainer{
+    position: absolute;
+    left: 0;
+    z-index: 33;
+    width: 100%;
+    height: 120vh;
+}
+.footer{
+    position: relative;
+    z-index: 15;
+}
+.wave-shape{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 70vh;
+    bottom: 0;
+    left: 0;
+}
+.content{
+    width: 100%;
+    height: 65vh;
+    padding: 3% 10%;
+}
+.leftContent{
+    width: 50%;
+    display: block;
+    float: left;
+}
+.rightContent{
+    width: 50%;
+    display: block;
+    float: right;
+}
+.btnSection{
+    width: 100%;
+    display: flex;
+}
+.btn1{
+    width: 32%;
+    height: 60px;
+    padding: 2px 2px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    background: #F5A40A;
+}
+.btn1In{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    background: #192E3F;
+}
+.btn2{
+    width: 32%;
+    height: 60px;
+    padding: 2px 2px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    background: #F5A40A;
+}
+.btn2In{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    background: #192E3F;
+}
+.btn2In h1{
+    width: 100%;
+    text-align: right;
+}
+.btnSection h1{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 2;
+    float: right;
+    background: #F5A40A;
+}
+.btn3 h1{
+    color: #192E3F;
+}
+.cardCollection{
+    padding-top: 10%;
+    width: 85%;
+}
+.customCard1{
+    width: 95%;
+    height: 110px;
+    display: block;
+}
+.customCard2{
+    width: 95%;
+    height: 110px;
+    display: block;
+    margin-top: 6%;
+}
+.leftCusCard{
+    width: 75%;
+    padding: 10px;
+    padding-right: 0;
+    float: left;
+    height: 100%;
+    border-left: 10px solid #F5A40A;
+    border-bottom: 2px solid #F5A40A;
+}
+.leftCusCard h1{
+    font-size: 1.8rem;
+    padding-bottom: 2%;
+}
+.leftCusCard span{
+    font-size: 1.2rem;
+    padding: 1%;
+    background: #F5A40A;
+}
+.rightCusCard{
+    width: 25%;
+    height: 100%;
+    float: right;
+    background: #F5A40A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightCusCard h2{
+    padding: 12%;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.crd21{
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #F5A40A;
+    border-left: 10px solid #F5A40A;
+}
+.crd22{
+    width: 25%;
+    float: left;
+    height: 100%;
+    background: #F5A40A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crd23{
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #F5A40A;
+}
+.crd24{
+    width: 25%;
+    float: left;
+    height: 100%;
+    background: #F5A40A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crd22 h2, .crd24 h2{
+    padding: 12%;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.crd21 h2, .crd23 h2{
+    font-weight: bold;
+    text-align: center;
+}
+.right1{
+    width: 60%;
+    float: left;
+    overflow: hidden;
+}
+.right1 h1{
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+.right1 h2{
+    width: 100%;
+    text-align: justify;
+    font-size: 2rem;
+    color: #F5A40A;
+    letter-spacing: .9rem;
+    padding-bottom: 15px;
+}
+.right1 h3{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.right1 span{
+    background-color: #F5A40A;
+    box-shadow:0 3px  0 #F5A40A,0 -3px 0 #F5A40A;
+}
+.right2{
+    width: 40%;
+    float: right;
+}
+.img1{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0 rgba(40, 41, 41, 0.5);
+}
+.img2{
+    float: left;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0 rgba(40, 41, 41, 0.5);
+}
+.img3{
+    float: left;
+    transform: translate(50%,50%);
+    align-self: flex-start;
+    width: 15%;
+    margin: auto 0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0 rgba(40, 41, 41, 0.5);
+}
+.footerSection{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding: 0 10%;
+}
+.leftFooter{
+    padding-top: 17%;
+    padding-right: 0%;
+    width: 20%;
+    height: 100%;
+    display: block;
+}
+.leftFooter span{
+    font-size: .8rem;
+    line-height: .7rem;
+    background-color: #F5A40A;
+    box-shadow:0 5px  0 #F5A40A,0 -5px 0 #F5A40A;
+}
+.midFooter{
+    width: 30%;
+    float: left;
+    color: white;
+    padding-top: 17%;
+    padding-left: 5%;
+}
+.midFooter h1{
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 7%;
+}
+.midFooter h2{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.rightFooter{
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(20%, -10%);
+}
+.rightFooter img{
+    margin: 0 auto;
+    width: 14%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0 rgba(245, 163, 10, 0.521);
+}
+.footerBtn{
+    padding-top: 20px;
+    display: flex;
+}
+.footerBtn a{
+    font-size: .9rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 40px;
+    border: 3px solid #fff;
+    padding: 2px 40px;
+    margin-right: 20px;
+}
+.footerBtn a:hover{
+    background: #F5A40A;
+    color: #192E3F;
+    border: 3px solid #F5A40A;
+}
+.rightFooter h2{
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 42%;
+    padding-left: 12%;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.rightFooter span{
+    box-shadow:0 5px  0 #F5A40A,0 -5px 0 #F5A40A;
+    font-size: .9rem;
+    background-color: #F5A40A;
+}
+.spanWrapper{
+    padding-right: 34%;
+    padding-left: 12%;
+}
